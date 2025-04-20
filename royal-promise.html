@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Love Story Flipbook</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="./assets/favicon.png">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio id="pageSound" src="./assets/page-flip.wav" preload="auto"></audio>
+  <div class="book">
+    <div class="page" id="page1" style="z-index: 14; background: url('./assets/royal-promise.png') no-repeat center center/cover;">
+      <div class="page-content">
+        <h1>A Royal Promise</h1>
+        <p>In a quiet golden chamber, their fingers intertwined, hearts aligned under the blessings of a thousand stars...</p>
+      </div>
+    </div>
+
+    <div class="page" id="page2" style="z-index: 13; background: #fff0f5">
+      <img src="./assets/star.png" class="decorative bottom-left" />
+      <div class="page-content" style="color: #d36c6c;">
+        <img src="./assets/heart.png" alt="Story Image" class="page-container-image-top">
+        <h1>Destined Hearts</h1>
+        <p>Two souls, one path. No force on Earth, nor stars above, could keep them apart</p>
+      </div>
+    </div>
+
+    <div class="page" id="page3" style="z-index: 12; background: #ffeef0;">
+      <img src="./assets/ring.png" class="decorative top-right" style="top: 59px; right: 58px;">
+      <img src="./assets/crown.png" class="decorative top-left" style="top: 65px; left: 55px;">
+      <div class="page-content" style="color: #cc6699;top: 50px;">
+        <h1 style="margin-top: auto;color: brown;">Their Vow</h1>
+        <p style="color: darksalmon;">In every lifetime, I would find you again. You are my beginning, my end, and every dream in between</p>
+        <img src="./assets/butterfly.png" alt="Story Image" class="page-container-image-down">
+      </div>
+    </div>
+
+    <div class="page" id="page4" style="z-index: 11; background: url(./assets/love.png);">
+      <div class="page-content">
+        <h1>The Universe Listened</h1>
+        <p>And when they kissed under the galaxy, the stars paused, for even the cosmos couldn't outshine their love</p>
+      </div>
+    </div>
+
+    <div class="page" id="page5" style="z-index: 10; background: url('./assets/lantern.png');">
+      <div class="page-content">
+        <h1 style="color: antiquewhite;margin-top: -55px;">Light of Love</h1>
+        <p style="color: beige;">Every lantern they lit carried a wish, floating high, lighting the sky just like their love did every night</p>
+      </div>
+    </div>
+
+    <div class="page" id="page6" style="z-index: 9; background: url('./assets/moon.png')">
+      <div class="page-content" style="color: #b96c77;top: 295px;">
+        <h1 style="color: antiquewhite; font-weight: bold;">Moonlit Memories</h1>
+        <p style="color: #3a275f;">Every moonrise was a gentle reminder of promises made under the stars, glowing with grace and warmth</p>
+      </div>
+    </div>
+    
+    <div class="page" id="page7" style="z-index: 8;background: url('./assets/flower_time.png') no-repeat center center/cover;background-position: calc(86% + 10px) center;">
+      <div class="page-content">
+        <h1 style="margin-top: -12%;">Together They Flew</h1>
+        <p style="margin-top: 3%;">Like birds in spring skies, they soared through storms and sunshine, never losing their way home</p>
+      </div>
+    </div>
+
+    <div class="page" id="page8" style="z-index: 7; background: rgba(255, 240, 245, 1) url(./assets/snowflake.jpg) no-repeat center center/cover;">
+      <div class="page-content">
+        <h1 style="color: aqua;">Whispers of Winter</h1>
+        <p style="color: ivory;">Even winter melted in their warmth. Their love was a fire, crackling softly beneath snow-kissed stars</p>
+      </div>
+    </div>
+
+    <div class="page" id="page9" style="z-index: 6; background: url(./assets/locket.png);">
+      <div class="page-content">
+        <h1 style="margin-top: -33px;">Locked in Hearts</h1>
+        <p style="justify-content: center;">A silver locket held her smile, his whisper, and every "I love you" sealed inside its shimmer</p>
+      </div>
+    </div>
+
+    <div class="page" id="page10" style="z-index: 5; background: url(./assets/flower.png);">
+      <div class="page-content">
+        <h1 style="color: hotpink;margin-top: -98px;text-align: right;">Petals of Memory</h1>
+        <p style="color: #eb408e;font-weight: bold;text-align: right;margin-top: auto;">Every flower bloomed with stories. Each petal, a memory. Together, they were an eternal garden of love</p>
+      </div>
+    </div>
+
+    <div class="page" id="page11" style="z-index: 4; background: #fdf6f0">
+      <img src="./assets/time_love.png" alt="Story Image" class="page-container-image-top" style="margin-top: 10%;">
+      <div class="page-content" style="top: 46%;">
+        <h1>Timeless</h1>
+        <p>In every tick of time, they found moments to fall in love again, again and again, endlessly</p>
+      </div>
+    </div>
+
+    <div class="page" id="page12" style="z-index: 3; background: url('././assets/sunset.png') no-repeat center center/cover;">
+      <div class="page-content" style="color: #b96c77;">
+        <h1 style="color: white;">Eternal Sunset</h1>
+        <p style="color: whitesmoke;">Their love shimmered like the golden horizon, forever timeless beneath the sky's last light</p>
+      </div>
+    </div>
+
+    <div class="page" id="page13" style="z-index: 2; background: #fffaf0;">
+      <img src="./assets/rose.png" style="width: 150px;position: absolute; top: 55px;right: 122px;">
+      <img src="./assets/feather.png" class="decorative bottom-right">
+      <div class="page-content" style="color: #aa6c39;">
+        <h1>Forevermore</h1>
+        <p>In the echo of eternity, their love became legend, whispered forever in the winds of time</p>
+      </div>
+    </div>
+
+    <div class="page" id="page14" style="z-index: 1; background: url(./assets/rose2.png) no-repeat center center/cover;">
+      <div class="page-content" style="color: #aa6c39;">
+        <h1 style="text-align:left">The End</h1>
+        <p style="text-align:left; width:60%">And so, their story lives on not in pages but in hearts</p>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
